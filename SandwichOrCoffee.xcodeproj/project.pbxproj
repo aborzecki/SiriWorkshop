@@ -14,6 +14,9 @@
 		8E6E7BC4224160140019AC74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E6E7BC2224160140019AC74 /* LaunchScreen.storyboard */; };
 		8E6E7BCF224160150019AC74 /* SandwichOrCoffeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6E7BCE224160150019AC74 /* SandwichOrCoffeeTests.swift */; };
 		8E6E7BDA224160150019AC74 /* SandwichOrCoffeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6E7BD9224160150019AC74 /* SandwichOrCoffeeUITests.swift */; };
+		8E6E7BE82241641D0019AC74 /* CoffeeDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E6E7BE72241641D0019AC74 /* CoffeeDetails.storyboard */; };
+		8E6E7BEA224164560019AC74 /* Success.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E6E7BE9224164560019AC74 /* Success.storyboard */; };
+		8E6E7BEC224164A60019AC74 /* SandwichDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E6E7BEB224164A60019AC74 /* SandwichDetails.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		8E6E7BD5224160150019AC74 /* SandwichOrCoffeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandwichOrCoffeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E6E7BD9224160150019AC74 /* SandwichOrCoffeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichOrCoffeeUITests.swift; sourceTree = "<group>"; };
 		8E6E7BDB224160150019AC74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E6E7BE72241641D0019AC74 /* CoffeeDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CoffeeDetails.storyboard; sourceTree = "<group>"; };
+		8E6E7BE9224164560019AC74 /* Success.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Success.storyboard; sourceTree = "<group>"; };
+		8E6E7BEB224164A60019AC74 /* SandwichDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SandwichDetails.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				8E6E7BC0224160140019AC74 /* Assets.xcassets */,
 				8E6E7BC2224160140019AC74 /* LaunchScreen.storyboard */,
 				8E6E7BC5224160140019AC74 /* Info.plist */,
+				8E6E7BE72241641D0019AC74 /* CoffeeDetails.storyboard */,
+				8E6E7BE9224164560019AC74 /* Success.storyboard */,
+				8E6E7BEB224164A60019AC74 /* SandwichDetails.storyboard */,
 			);
 			path = SandwichOrCoffee;
 			sourceTree = "<group>";
@@ -229,7 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E6E7BEC224164A60019AC74 /* SandwichDetails.storyboard in Resources */,
 				8E6E7BC4224160140019AC74 /* LaunchScreen.storyboard in Resources */,
+				8E6E7BE82241641D0019AC74 /* CoffeeDetails.storyboard in Resources */,
+				8E6E7BEA224164560019AC74 /* Success.storyboard in Resources */,
 				8E6E7BC1224160140019AC74 /* Assets.xcassets in Resources */,
 				8E6E7BBF224160110019AC74 /* Main.storyboard in Resources */,
 			);
