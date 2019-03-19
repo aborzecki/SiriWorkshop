@@ -16,7 +16,8 @@
 		8E6E7BDA224160150019AC74 /* SandwichOrCoffeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6E7BD9224160150019AC74 /* SandwichOrCoffeeUITests.swift */; };
 		8E6E7BE82241641D0019AC74 /* CoffeeDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E6E7BE72241641D0019AC74 /* CoffeeDetails.storyboard */; };
 		8E6E7BEA224164560019AC74 /* Success.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E6E7BE9224164560019AC74 /* Success.storyboard */; };
-		8E6E7BEC224164A60019AC74 /* SandwichDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E6E7BEB224164A60019AC74 /* SandwichDetails.storyboard */; };
+		8E6E7BEF224168580019AC74 /* SandwichViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6E7BED224168580019AC74 /* SandwichViewController.swift */; };
+		8E6E7BF0224168580019AC74 /* Sandwich.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E6E7BEE224168580019AC74 /* Sandwich.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +53,8 @@
 		8E6E7BDB224160150019AC74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E6E7BE72241641D0019AC74 /* CoffeeDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CoffeeDetails.storyboard; sourceTree = "<group>"; };
 		8E6E7BE9224164560019AC74 /* Success.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Success.storyboard; sourceTree = "<group>"; };
-		8E6E7BEB224164A60019AC74 /* SandwichDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SandwichDetails.storyboard; sourceTree = "<group>"; };
+		8E6E7BED224168580019AC74 /* SandwichViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandwichViewController.swift; sourceTree = "<group>"; };
+		8E6E7BEE224168580019AC74 /* Sandwich.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Sandwich.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,8 @@
 		8E6E7BB8224160110019AC74 /* SandwichOrCoffee */ = {
 			isa = PBXGroup;
 			children = (
+				8E6E7BEE224168580019AC74 /* Sandwich.storyboard */,
+				8E6E7BED224168580019AC74 /* SandwichViewController.swift */,
 				8E6E7BB9224160110019AC74 /* AppDelegate.swift */,
 				8E6E7BBB224160110019AC74 /* ViewController.swift */,
 				8E6E7BBD224160110019AC74 /* Main.storyboard */,
@@ -111,7 +115,6 @@
 				8E6E7BC5224160140019AC74 /* Info.plist */,
 				8E6E7BE72241641D0019AC74 /* CoffeeDetails.storyboard */,
 				8E6E7BE9224164560019AC74 /* Success.storyboard */,
-				8E6E7BEB224164A60019AC74 /* SandwichDetails.storyboard */,
 			);
 			path = SandwichOrCoffee;
 			sourceTree = "<group>";
@@ -238,10 +241,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E6E7BEC224164A60019AC74 /* SandwichDetails.storyboard in Resources */,
 				8E6E7BC4224160140019AC74 /* LaunchScreen.storyboard in Resources */,
 				8E6E7BE82241641D0019AC74 /* CoffeeDetails.storyboard in Resources */,
 				8E6E7BEA224164560019AC74 /* Success.storyboard in Resources */,
+				8E6E7BF0224168580019AC74 /* Sandwich.storyboard in Resources */,
 				8E6E7BC1224160140019AC74 /* Assets.xcassets in Resources */,
 				8E6E7BBF224160110019AC74 /* Main.storyboard in Resources */,
 			);
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E6E7BBC224160110019AC74 /* ViewController.swift in Sources */,
+				8E6E7BEF224168580019AC74 /* SandwichViewController.swift in Sources */,
 				8E6E7BBA224160110019AC74 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
