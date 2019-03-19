@@ -10,18 +10,9 @@ import UIKit
 
 class SandwichViewController: UIViewController {
 
-    enum Item: Int {
-        
-        case tomato
-        case bacon
-        case lettuce
-    }
-    
     @IBOutlet weak var tomatoSwitch: UISwitch!
     @IBOutlet weak var baconSwitch: UISwitch!
     @IBOutlet weak var lettuceSwitch: UISwitch!
-    
-    var items: [Item]?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,25 +21,17 @@ class SandwichViewController: UIViewController {
     
     
     @IBAction func orderTapped(_ sender: Any) {
+        let sandwich = Sandwich(tomato: tomatoSwitch.isOn, bacon: baconSwitch.isOn, lettuce: lettuceSwitch.isOn)
         
-        var items: [Item] = []
-        
-        if tomatoSwitch.isOn {
-            items.append(.tomato)
-        }
-        if baconSwitch.isOn {
-            items.append(.bacon)
-        }
-        if lettuceSwitch.isOn {
-            items.append(.lettuce)
-        }
-        
-        if let vc = UIStoryboard(name: "Success", bundle: nil).instantiateInitialViewController() as? UIViewController { //replace UIViewController here
-        //        vc.items = items
-        //        vc.orderType = .sandwich
-            
+        if let vc = UIStoryboard(name: "Success", bundle: nil).instantiateInitialViewController() as? SuccessViewController { //replace UIViewController here
+            vc.sandwich = sandwich
             navigationController?.pushViewController(vc, animated: true)
         }
     }
 }
 
+struct Sandwich {
+    let tomato: Bool
+    let bacon: Bool
+    let lettuce: Bool
+}
