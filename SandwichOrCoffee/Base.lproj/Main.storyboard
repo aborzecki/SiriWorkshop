@@ -27,7 +27,7 @@
                                             <constraint firstAttribute="width" constant="120" id="KQl-rr-OhL"/>
                                             <constraint firstAttribute="height" constant="120" id="ys1-IB-Wzv"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="75"/>
                                         <state key="normal" title="☕️"/>
                                         <connections>
                                             <segue destination="exJ-3G-ZAw" kind="show" id="XjN-fQ-3TY"/>
@@ -39,7 +39,7 @@
                                             <constraint firstAttribute="width" constant="120" id="7CA-Hp-xP8"/>
                                             <constraint firstAttribute="height" constant="120" id="Di2-WO-ZZw"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="75"/>
                                         <state key="normal" title="🥪"/>
                                         <connections>
                                             <segue destination="Xmo-gM-as6" kind="show" id="0ZQ-8g-Vz6"/>
