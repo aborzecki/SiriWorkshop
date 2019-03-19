@@ -47,7 +47,7 @@ class SandwichViewController: UIViewController {
         //        vc.items = items
         //        vc.orderType = .sandwich
             
-        navigationController?.pushViewController(vc, animated: true)
+            navigationController?.pushViewController(vc, animated: true)
         }
     }
 }
